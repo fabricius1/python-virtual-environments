@@ -25,15 +25,23 @@ The last command will take a little longer to finish running. When that happens,
 # subfolders created with `python -m venv .myenv`
 
 1. In Windows, the name of `.myenv` subfolders will be:
+
   i. `Include`
+
   ii. `Lib`
+ 
   iii. `Scripts`
 
 2. In my Linux Ubuntu 20.4 (running in WSL), the following subfolders were created:
+  
   i. `bin`
+  
   ii. `include`
+  
   iii. `lib`
+  
   iv. `lib`
+  
   v. `share`
 
 I recommend that you explore this subfolder in the future a little more, especially checking where the virtual environment Python local version is installed and where the future modules, installed with pip when the virtual environment is activated, will be saved in the `.myenv` folder.
@@ -42,8 +50,8 @@ A very important note to make is that both the `Scripts` folder (in Windows) and
 
 # How to activate virtual enviroments with *venv*
 
-:Plataform:  | :Shell: | :Command to activate virtual environment:
------------- | ------- | ----------------------------------------
+Plataform  | Shell | Command to activate virtual environment
+--- | --- | ---
 POSIX | bash/zsh | $ source <venv>/bin/activate
 | fish  | $ source <venv>/bin/activate.fish
 | csh/tcsh | $ source <venv>/bin/activate.csh
