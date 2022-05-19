@@ -26,23 +26,23 @@ The last command will take a little longer to finish running. When that happens,
 
 1. In Windows, the name of `.myenv` subfolders will be:
 
-  i. `Include`
+    i. `Include`
 
-  ii. `Lib`
+    ii. `Lib`
  
-  iii. `Scripts`
+    iii. `Scripts`
 
 2. In my Linux Ubuntu 20.4 (running in WSL), the following subfolders were created:
   
-  i. `bin`
+    i. `bin`
   
-  ii. `include`
+    ii. `include`
   
-  iii. `lib`
+    iii. `lib`
   
-  iv. `lib`
-  
-  v. `share`
+    iv. `lib`
+    
+    v. `share`
 
 I recommend that you explore this subfolder in the future a little more, especially checking where the virtual environment Python local version is installed and where the future modules, installed with pip when the virtual environment is activated, will be saved in the `.myenv` folder.
 
