@@ -10,11 +10,11 @@ My prefered terminal is GitBash, which allows me to write most Linux commands in
 
 1. In your prefered terminal, create a folder to your new project (you can skip this step if your project folder already exists). Mine will be called `my_project_folder`:
 
-```mkdir my_project_folder```
+> ```mkdir my_project_folder```
 
 2. Move inside the folder:
 
-```cd my_project_folder```
+> ```cd my_project_folder```
 
 3. Run the command below to create the virtual environment.  I will call mine `.myenv` but you can name it whatever you want:
 
