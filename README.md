@@ -78,8 +78,7 @@ A very important note to make is that both the `Scripts` folder (in Windows) and
             <td>&nbsp;</td>
             <td>fish</td>
             <td>$ source <venv>/bin/activate.fish</td>
-        </tr>
-        
+        </tr>  
     </tbody>
 </table>
 
