@@ -63,12 +63,12 @@ A very important note to make is that both the `Scripts` folder (in Windows) and
 Plataform  | Shell | Command to activate virtual environment
 --- | --- | ---
 POSIX | bash/zsh | $ source <venv>/bin/activate
-| fish  | $ source <venv>/bin/activate.fish
-| csh/tcsh | $ source <venv>/bin/activate.csh
-| PowerShell Core | $ <venv>/bin/Activate.ps1
+&nbsp; | fish  | $ source <venv>/bin/activate.fish
+&nbsp; | csh/tcsh | $ source <venv>/bin/activate.csh
+&nbsp; | PowerShell Core | $ <venv>/bin/Activate.ps1
 Windows | cmd.exe | C:\> <venv>\Scripts\activate.bat
-| PowerShell | PS C:\> <venv>\Scripts\Activate.ps1
-| GitBash | source <venv>/Scripts/activate
+&nbsp; | PowerShell | PS C:\> <venv>\Scripts\Activate.ps1
+&nbsp; | GitBash | source <venv>/Scripts/activate
 
 This table was copied from the [venv documentation](https://docs.python.org/3/library/venv.html), with the adition of the command for GitBash. Notice how this last one is very similar to their Linux counterparts, but it looks for the `activate` executable inside the `Scripts/` folder instead of `bin/` (which unexists in Windows).
     
