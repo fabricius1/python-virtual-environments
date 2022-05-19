@@ -1,4 +1,4 @@
-![example code to start a virtual environment](images/terminal_commands.png)
+![example code to start a virtual environment](terminal_commands.png)
 
 # Description
 
