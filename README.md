@@ -70,5 +70,7 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
 **IMPORTANT note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
     
 **Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
-    
-<img align="center" src="terminal_commands.png" alt="example code" width="850px" />
+
+<p align="center">
+    <img align="center" src="terminal_commands.png" alt="example code" width="850px" />
+</p>
