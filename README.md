@@ -1,2 +1,9 @@
-# python-virtual-environments
-A short tutorial about how to create and activate virtual environments in Python using the venv builtin module
+# Description 
+
+This file shows how to create and activate **virtual enviroments** in *Python* using the builtin module called ***venv***.
+
+# How to create a virtual enviroment with *venv*
+
+
+# How to activate virtual enviroments with *venv*
+
