@@ -1,7 +1,7 @@
 # Table of contents
 
 1. [Description](#Description)
-2. [How to create a virtual enviroment with *venv*](# How to create a virtual enviroment with *venv*)
+2. [How to create a virtual enviroment with *venv*](#_How_to_create_a_virtual_enviroment_with_*venv*)
 3. [About the subfolders created with `python -m venv .myenv`](# About the subfolders created with `python -m venv .myenv`)
 4. [How to activate/deactivate a virtual enviroment with *venv*](# How to activate/deactivate a virtual enviroment with *venv*)
 5. [Screenshot with code example](# Screenshot with code example)
