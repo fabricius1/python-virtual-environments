@@ -2,7 +2,7 @@
 
 This tutorial shows how to create and activate **virtual enviroments** in *Python* using the builtin module called ***venv*** (check its [documentation here](https://docs.python.org/3/library/venv.html)).
 
-We recomend that you use a Python stable version equals or or higher than 3.10 in your projects.
+We recomend that you use a Python stable version equal or higher than 3.10 in your projects.
 
 My prefered terminal is GitBash, which allows me to write most Linux commands in my Windows Operational System (OS). Thus, some commands might need to be adapted to your other prefered terminals and OS. When we reach the point of activating the virtual environment, we will address this issue with more details. 
 
@@ -26,23 +26,23 @@ The last command will take a little longer to finish running. When that happens,
 
 1. In Windows, the name of `.myenv` subfolders will be:
 
-1.1. `Include`
+  1.1. `Include`
 
-1.2. `Lib`
+  1.2. `Lib`
 
-1.3. `Scripts`
+  1.3. `Scripts`
 
 2. In my Linux Ubuntu 20.4 (running in WSL), the following subfolders were created:
 
-2.1. `bin`
+  2.1. `bin`
 
-2.2. `include`
+  2.2. `include`
 
-2.3. `lib`
+  2.3. `lib`
 
-2.4. `lib`
+  2.4. `lib`
 
-2.5. `share`
+  2.5. `share`
 
 I recommend that you explore this subfolder in the future a little more, especially checking where the virtual environment Python local version is installed and where the future modules, installed with pip when the virtual environment is activated, will be saved in the `.myenv` folder.
 
