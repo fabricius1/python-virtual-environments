@@ -69,12 +69,17 @@ A very important note to make is that both the `Scripts` folder (in Windows) and
         <td>Command to activate virtual environment</td>
     </thead>
     <tbody>
-        <td>POSIX</td>
-        <td>bash/zsh</td>
-        <td>$ source <venv>/bin/activate</td>
-        <td>&nbsp;</td>
-        <td>fish</td>
-        <td>$ source <venv>/bin/activate.fish</td>
+        <tr>
+            <td>POSIX</td>
+            <td>bash/zsh</td>
+            <td>$ source <venv>/bin/activate</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>fish</td>
+            <td>$ source <venv>/bin/activate.fish</td>
+        </tr>
+        
     </tbody>
 </table>
 
