@@ -1,3 +1,11 @@
+# Table of contents
+
+1. [Description](#Description)
+2. [How to create a virtual enviroment with *venv*](# How to create a virtual enviroment with *venv*)
+3. [About the subfolders created with `python -m venv .myenv`](# About the subfolders created with `python -m venv .myenv`)
+4. [How to activate/deactivate a virtual enviroment with *venv*](# How to activate/deactivate a virtual enviroment with *venv*)
+5. [Screenshot with code example](# Screenshot with code example)
+
 # Description
 
 This tutorial shows how to create and activate a **virtual enviroment** in *Python* using the builtin module ***venv*** (check its [documentation here](https://docs.python.org/3/library/venv.html)).
@@ -71,6 +79,8 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
     
 **Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
 
+# Screenshot with code example
+  
 <p align="center">
     <img align="center" src="terminal_commands.png" alt="example code" width="850px" />
 </p>
