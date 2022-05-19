@@ -71,4 +71,4 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
     
 **Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
     
-<img style="text-align: center;" src="terminal_commands.png" alt="example code" width="700px" />
+    <center><img src="terminal_commands.png" alt="example code" width="700px" /></center>
