@@ -69,8 +69,8 @@ POSIX | bash/zsh | $ source \<venv\>/bin/activate
 &nbsp; | fish  | $ source \<venv\>/bin/activate.fish
 &nbsp; | csh/tcsh | $ source \<venv\>/bin/activate.csh
 &nbsp; | PowerShell Core | $ \<venv\>/bin/Activate.ps1
-Windows | cmd.exe | C:\> \<venv\>\Scripts\activate.bat
-&nbsp; | PowerShell | PS C:\> \<venv\>\Scripts\Activate.ps1
+Windows | cmd.exe | C:\\> \<venv\>\Scripts\activate.bat
+&nbsp; | PowerShell | PS C:\\> \<venv\>\Scripts\Activate.ps1
 &nbsp; | GitBash | source \<venv\>/Scripts/activate
     
 </div>
