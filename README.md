@@ -58,7 +58,7 @@ A very important note to make is that both the `Scripts` folder (in Windows) and
 
 # How to activate/deactivate a virtual enviroment with *venv*
 
-1. To activate a virtual environment, choose the right command for your OS and terminal, as provided in the table below:
+1. To activate a virtual environment, choose the right command for your OS and terminal, as provided in the table below, where `<env>` must be replaced by your virtual environment folder name.
 
 <br />
 <div align="center">
