@@ -1,10 +1,10 @@
 # Table of contents
 
 1. [Description](#Description)
-2. [How to create a virtual enviroment with *venv*](#_How_to_create_a_virtual_enviroment_with_*venv*)
-3. [About the subfolders created with `python -m venv .myenv`](# About the subfolders created with `python -m venv .myenv`)
-4. [How to activate/deactivate a virtual enviroment with *venv*](# How to activate/deactivate a virtual enviroment with *venv*)
-5. [Screenshot with code example](# Screenshot with code example)
+2. [How to create a virtual enviroment with *venv*](#how-to-create-a-virtual-enviroment-with-venv)
+3. [About the subfolders created with `python -m venv .myenv`](#about-the-subfolders-created-with-python--m-venv-myenv)
+4. [How to activate/deactivate a virtual enviroment with *venv*](#how-to-activatedeactivate-a-virtual-enviroment-with-venv)
+5. [Screenshot with code example](#screenshot-with-code-example)
 
 # Description
 
