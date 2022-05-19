@@ -1,10 +1,12 @@
+![example code to start a virtual environment](images/terminal_commands.png)
+
 # Description
 
-This tutorial shows how to create and activate **virtual enviroments** in *Python* using the builtin module called ***venv*** (check its [documentation here](https://docs.python.org/3/library/venv.html)).
+This tutorial shows how to create and activate a **virtual enviroment** in *Python* using the builtin module ***venv*** (check its [documentation here](https://docs.python.org/3/library/venv.html)).
 
 We recomend that you use a Python stable version equal or higher than 3.10 in your projects.
 
-My prefered terminal is GitBash, which allows me to write most Linux commands in my Windows Operational System (OS). Thus, some commands might need to be adapted to your other prefered terminals and OS. When we reach the point of activating the virtual environment, we will address this issue with more details. 
+My prefered terminal is GitBash, which allows me to write most Linux commands in my Windows Operational System (OS). Thus, some commands might need to be adapted to your other prefered terminals and OS. 
 
 # How to create a virtual enviroment with *venv*
 
@@ -20,9 +22,9 @@ My prefered terminal is GitBash, which allows me to write most Linux commands in
 
 >  ```python -m venv .myenv```
 
-The last command will take a little longer to finish running. When that happens, A new folder `.myenv` (or whatever you called it) will be created inside your project folder. The `.myenv` folder has all the virtual environment files you need, including a copy from the Python version linked to the `python` alias you used in the command `**python** -m venv .myenv`. 
+The last command will take a little longer to finish running. Then a new folder `.myenv` (or whatever you called it) will be created inside your project folder. The `.myenv` folder has all the virtual environment files you need, including a copy from the Python version linked to the `python` alias you used in the command `**python** -m venv .myenv`.
 
-# subfolders created with `python -m venv .myenv`
+# About the subfolders created with `python -m venv .myenv`
 
 1. In Windows, the name of `.myenv` subfolders will be:
 
@@ -44,11 +46,13 @@ The last command will take a little longer to finish running. When that happens,
     
     v. `share`
 
-I recommend that you explore this subfolder in the future a little more, especially checking where the virtual environment Python local version is installed and where the future modules, installed with pip when the virtual environment is activated, will be saved in the `.myenv` folder.
+I recommend that you explore these subfolders in the future, especially checking where the Python local version for the virtual environment is installed and where the future modules, to be installed with pip when the virtual environment is activated, will be saved inside the `.myenv` structure.
 
-A very important note to make is that both the `Scripts` folder (in Windows) and `bin` (in Linux) contain the binary files that will be used latter to activate and deactivate the virtual environment.
+A very important note to make is that both the `Scripts` folder (in Windows) and `bin` (in Linux) are very similar and contain the binary files that will be used later to activate and deactivate the virtual environment.
 
-# How to activate virtual enviroments with *venv*
+# How to activate/deactivate a virtual enviroment with *venv*
+
+1. To activate a virtual environment, choose the right command for your OS and terminal, as provided in the table below:
 
 Plataform  | Shell | Command to activate virtual environment
 --- | --- | ---
@@ -60,5 +64,11 @@ Windows | cmd.exe | C:\> <venv>\Scripts\activate.bat
 | PowerShell | PS C:\> <venv>\Scripts\Activate.ps1
 | GitBash | source <venv>/Scripts/activate
 
-  
-new text
+This table was copied from the [venv documentation](https://docs.python.org/3/library/venv.html), with the adition of the command for GitBash. Notice how this last one is very similar to their Linux counterparts, but it looks for the `activate` executable inside the `Scripts/` folder instead of `bin/` (which unexists in Windows).
+    
+2. To deactivate a virtual environment, just run this command:
+> ```deactivate```
+    
+**IMPORTANT note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
+    
+**Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
