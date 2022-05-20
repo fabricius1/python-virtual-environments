@@ -48,7 +48,7 @@ The last command will take a little longer to finish running. Then a new folder 
   
     iii. `lib`
   
-    iv. `lib`
+    iv. `lib64`
     
     v. `share`
 
