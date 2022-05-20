@@ -2,7 +2,6 @@
 
 <br />
 <br />
-<br />
 
 # Table of contents
 
@@ -87,7 +86,7 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
 2. To deactivate a virtual environment, just run this command:
 > ```deactivate```
     
-**IMPORTANT note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
+**Important note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
     
 **Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
 
