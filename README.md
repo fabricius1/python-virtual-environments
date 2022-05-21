@@ -32,11 +32,11 @@ My preferred terminal is GitBash, which allows me to write most Linux commands i
 
 >  ```python -m venv .myenv```
 
-The last command will take a little longer to finish running. Then a new folder `.myenv` (or whatever you called it) will be created inside your project folder. The `.myenv` folder has all the virtual environment files you need, including a copy from the Python version linked to the `python` alias you used in the command `**python** -m venv .myenv`.
+The last command will take a little longer to finish running. Then a new folder `.myenv` (or whatever you called it) will be created inside your project folder. The `.myenv` folder has all the virtual environment files you need, including a copy from the Python version linked to the `python` alias you used in the command `python -m venv .myenv`.
 
 # About the subfolders created with `python -m venv .myenv`
 
-1. In Windows, the name of `.myenv` subfolders will be:
+1. In Windows, the `.myenv` directory will have the following subfolders:
 
     i. `Include`
 
@@ -56,9 +56,9 @@ The last command will take a little longer to finish running. Then a new folder 
     
     v. `share`
 
-I recommend that you explore these subfolders in the future, especially checking where the Python local version for the virtual environment is installed and where the future modules, to be installed with pip when the virtual environment is activated, will be saved inside the `.myenv` structure.
+I recommend that you explore these subfolders in the future, especially checking where the Python local version for the virtual environment is installed and where the future modules, to be installed with `pip` when the virtual environment is activated, will be saved inside the `.myenv` structure.
 
-A very important note is that both the `Scripts` folder (in Windows) and `bin` (in Linux) are very similar and contain the binary files that will be used later to activate and deactivate the virtual environment.
+A very important note is that both the `Scripts` folder (in Windows) and `bin` (in Linux) are very similar and contain the files that will be used later to activate and deactivate the virtual environment.
 
 # How to activate/deactivate a virtual environment
 
@@ -94,3 +94,10 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
 <p align="center">
     <img align="center" src="terminal_commands.png" alt="example code" width="850px" />
 </p>
+
+# Techs used in this tutorial:
+
+* Python 3.10.2
+* venv module
+* Gitbash
+* pip
