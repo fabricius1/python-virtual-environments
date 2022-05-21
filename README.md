@@ -15,7 +15,7 @@
 
 This tutorial shows how to create and activate a **virtual environment** in *Python* using the built-in module ***venv*** (check its [documentation here](https://docs.python.org/3/library/venv.html)).
 
-I recommend that you use a Python stable version equal to or higher than 3.10 in your projects.
+I recommend using a Python stable version equal to or higher than 3.10 in your projects.
 
 My preferred terminal is GitBash, which allows me to write most Linux commands in my Windows Operational System (OS). Thus, some commands might need to be adapted to your other favorite terminals and OS. 
 
@@ -83,14 +83,14 @@ Windows | cmd.exe | C:\\> \<venv\>\Scripts\activate.bat
     
 This table was copied from the [venv documentation](https://docs.python.org/3/library/venv.html), with the addition of the command for GitBash. Notice how this last one is very similar to their Linux counterparts, but it looks for the `activate` executable inside the `Scripts/` folder instead of `bin/`.
 
-2. After running the correct activate command, your virtual environment name will appear between parentheses on your command line prompt (check image example below in [code example](#code-example).
+2. After running the correct activate command, your virtual environment name will appear between parentheses on your command line prompt (check the image example below in the [code example](#code-example) topic.
 
 3. To deactivate a virtual environment, just run this command:
 > ```deactivate```
     
 **Important note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
     
-**Important note 2**: no third party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
+**Important note 2**: no third-party modules will be installed inside your virtual environment. So, use `pip install <package_name>` or `pip install -r requirements.txt` to install the packages you need.
 
 # Code example
   
