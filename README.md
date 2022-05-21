@@ -4,11 +4,12 @@
 
 # Table of contents
 
-1. [Description](#Introduction)
+1. [Introduction](#Introduction)
 2. [How to create a virtual environment](#how-to-create-a-virtual-environment)
 3. [About the subfolders created with `python -m venv .myenv`](#about-the-subfolders-created-with-python--m-venv-myenv)
 4. [How to activate/deactivate a virtual environment](#how-to-activatedeactivate-a-virtual-environment)
 5. [Code example](#code-example)
+6. [Techs used in this tutorial](#techs-used-in-this-tutorial)
 
 # Introduction
 
@@ -97,7 +98,7 @@ This table was copied from the [venv documentation](https://docs.python.org/3/li
     <img align="center" src="terminal_commands.png" alt="example code" width="850px" />
 </p>
 
-# Techs used in this tutorial:
+# Techs used in this tutorial
 
 * Python 3.10.2
 * venv module
