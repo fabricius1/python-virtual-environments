@@ -81,8 +81,10 @@ Windows | cmd.exe | C:\\> \<venv\>\Scripts\activate.bat
 <br />
     
 This table was copied from the [venv documentation](https://docs.python.org/3/library/venv.html), with the addition of the command for GitBash. Notice how this last one is very similar to their Linux counterparts, but it looks for the `activate` executable inside the `Scripts/` folder instead of `bin/`.
-    
-2. To deactivate a virtual environment, just run this command:
+
+2. After running the correct activate command, your virtual environment name will appear between parentheses on your command line prompt (check image example below in [code example](#code-example).
+
+3. To deactivate a virtual environment, just run this command:
 > ```deactivate```
     
 **Important note 1**: The virtual environment will be activated only in your current terminal tab. If you want to work in multiple terminal tabs, don't forget to activate the virtual environment there too.
