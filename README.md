@@ -1,4 +1,4 @@
-<h1 align="center">Virtual environments in Python with the <em>venv</em> module</h1>
+<h1 align="center">Virtual environments in Python with the <em><strong>venv</strong></em> module</h1>
 
 <br />
 
